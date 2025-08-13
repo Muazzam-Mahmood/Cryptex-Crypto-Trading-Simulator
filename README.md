@@ -1,10 +1,6 @@
 # 💰 Cryptex - Cryptocurrency Trading Simulator
 
 <p align="center">
-  <img src="https://img.icons8.com/ios-filled/100/000000/bitcoin.png" width="80" />
-</p>
-
-<p align="center">
   <b>Cryptocurrency Trading Simulator – built with C++ & Qt Framework</b><br/>
   <i>Simulate BTC, ETH, and SOL trading, track your portfolio, and experience a real trading platform interface — without internet connectivity.</i>
 </p>
@@ -74,4 +70,4 @@ and [Husnain Khan](https://github.com/Killercoder07)
 ## 📌 Acknowledgments
 
 - [Qt Framework](https://www.qt.io/)
-- [Icons8](https://icons8.com/)
+
