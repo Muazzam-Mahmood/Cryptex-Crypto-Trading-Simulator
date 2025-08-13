@@ -1,0 +1,4 @@
+admin,1234
+boss,boss
+chicklover,chicklover
+waqar_zaka,Diddy

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1290</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.458158, y1:0.451, x2:0.448522, y2:0.78, stop:0.00549451 rgba(43, 81, 169, 255), stop:1 rgba(60, 70, 169, 255));
+
+background-color: qlineargradient(spread:pad, x1:0.327839, y1:0.644, x2:1, y2:0.004, stop:0.010929 rgba(58, 32, 142, 255), stop:0.538462 rgba(29, 59, 167, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="White" native="true">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>-30</y>
+      <width>541</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.458158, y1:0.451, x2:0.448522, y2:0.78, stop:0.00549451 rgba(255, 255, 255, 255), stop:0.994505 rgba(255, 255, 255, 255));</string>
+    </property>
+    <widget class="QPushButton" name="LoginButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>190</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0.327839, y1:0.644, x2:1, y2:0.004, stop:0.010929 rgba(58, 32, 142, 255), stop:0.538462 rgba(29, 59, 167, 255));
+
+    color: #ffdf00;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 13px 16px;
+    border-radius: 8px;
+
+    /* 3D outset-style border */
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff #a0a0a0 #404040 #d0d0d0;  /* top, right, bottom, left */
+}
+
+QPushButton:hover {
+    background-color: #1CB0F6;
+	background-color: qlineargradient(spread:pad, x1:0.358436, y1:0.76, x2:0.999, y2:0.036, stop:0.010929 rgba(62, 55, 142, 255), stop:0.530055 rgba(74, 108, 167, 255));
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(spread:pad, x1:0.327839, y1:0.644, x2:1, y2:0.004, stop:0.010929 rgba(29, 59, 167, 255), stop:0.538462 rgba(58, 32, 142, 255));
+
+    border-color: #404040 #d0d0d0 #ffffff #a0a0a0;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+QPushButton:disabled {
+    background-color: #b0b0b0;
+    color: #f0f0f0;
+    border-color: #cccccc;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>LOGIN</string>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="DemoButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>490</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0.327839, y1:0.644, x2:1, y2:0.004, stop:0.010929 rgba(58, 32, 142, 255), stop:0.538462 rgba(29, 59, 167, 255));
+
+    color: #ffdf00;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 13px 16px;
+    border-radius: 8px;
+
+    /* 3D outset-style border */
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff #a0a0a0 #404040 #d0d0d0;  /* top, right, bottom, left */
+}
+
+QPushButton:hover {
+    background-color: #1CB0F6;
+	background-color: qlineargradient(spread:pad, x1:0.358436, y1:0.76, x2:0.999, y2:0.036, stop:0.010929 rgba(62, 55, 142, 255), stop:0.530055 rgba(74, 108, 167, 255));
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(spread:pad, x1:0.327839, y1:0.644, x2:1, y2:0.004, stop:0.010929 rgba(29, 59, 167, 255), stop:0.538462 rgba(58, 32, 142, 255));
+
+    border-color: #404040 #d0d0d0 #ffffff #a0a0a0;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+QPushButton:disabled {
+    background-color: #b0b0b0;
+    color: #f0f0f0;
+    border-color: #cccccc;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>DEMO</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="AdminButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>390</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0.327839, y1:0.644, x2:1, y2:0.004, stop:0.010929 rgba(58, 32, 142, 255), stop:0.538462 rgba(29, 59, 167, 255));
+
+    color: #ffdf00;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 13px 16px;
+    border-radius: 8px;
+
+    /* 3D outset-style border */
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff #a0a0a0 #404040 #d0d0d0;  /* top, right, bottom, left */
+}
+
+QPushButton:hover {
+    background-color: #1CB0F6;
+	background-color: qlineargradient(spread:pad, x1:0.358436, y1:0.76, x2:0.999, y2:0.036, stop:0.010929 rgba(62, 55, 142, 255), stop:0.530055 rgba(74, 108, 167, 255));
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(spread:pad, x1:0.327839, y1:0.644, x2:1, y2:0.004, stop:0.010929 rgba(29, 59, 167, 255), stop:0.538462 rgba(58, 32, 142, 255));
+
+    border-color: #404040 #d0d0d0 #ffffff #a0a0a0;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+QPushButton:disabled {
+    background-color: #b0b0b0;
+    color: #f0f0f0;
+    border-color: #cccccc;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>ADMIN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="SignupButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>290</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0.327839, y1:0.644, x2:1, y2:0.004, stop:0.010929 rgba(58, 32, 142, 255), stop:0.538462 rgba(29, 59, 167, 255));
+
+    color: #ffdf00;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 13px 16px;
+    border-radius: 8px;
+
+    /* 3D outset-style border */
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff #a0a0a0 #404040 #d0d0d0;  /* top, right, bottom, left */
+}
+
+QPushButton:hover {
+    background-color: #1CB0F6;
+	background-color: qlineargradient(spread:pad, x1:0.358436, y1:0.76, x2:0.999, y2:0.036, stop:0.010929 rgba(62, 55, 142, 255), stop:0.530055 rgba(74, 108, 167, 255));
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(spread:pad, x1:0.327839, y1:0.644, x2:1, y2:0.004, stop:0.010929 rgba(29, 59, 167, 255), stop:0.538462 rgba(58, 32, 142, 255));
+
+    border-color: #404040 #d0d0d0 #ffffff #a0a0a0;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+QPushButton:disabled {
+    background-color: #b0b0b0;
+    color: #f0f0f0;
+    border-color: #cccccc;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>SIGNUP</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qqqq">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>590</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+
+	background-color: qlineargradient(spread:pad, x1:0.932234, y1:0.104, x2:0.1, y2:0.967803, stop:0.010929 rgba(176, 123, 123, 255), stop:0.530055 rgba(145, 15, 15, 255));
+    color: #ffdf00;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 13px 16px;
+    border-radius: 8px;
+
+    /* 3D outset-style border */
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff #a0a0a0 #404040 #d0d0d0;  /* top, right, bottom, left */
+}
+
+QPushButton:hover {
+    background-color: #ff0000;
+	background-color: qlineargradient(spread:pad, x1:0.932234, y1:0.104, x2:0.1, y2:0.967803, stop:0.010929 rgba(200, 123, 123, 255), stop:0.530055 rgba(120, 15, 15, 255));
+}
+
+QPushButton:pressed {
+    /* Simulate button press by flipping light/shadow sides */
+    border-color: #404040 #d0d0d0 #ffffff #a0a0a0;
+    background-color: #780000;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+QPushButton:disabled {
+    background-color: #b0b0b0;
+    color: #f0f0f0;
+    border-color: #cccccc;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>230</y>
+      <width>321</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent; border:none</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI','sans-serif'; font-size:36pt; font-weight:700; color:#ffdf00;&quot;&gt;Cryptex&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI','sans-serif'; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot; font-family:'Segoe UI','sans-serif'; font-size:11pt; font-style:italic; color:#ffffff;&quot;&gt;Providing next-generation financial tools :&lt;br /&gt;where security, speed, and strategy converge &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>590</y>
+      <width>311</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent; border:none;</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas'; font-size:12pt; font-weight:700;&quot;&gt;Complied and Designed by:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas'; font-size:11pt;&quot;&gt;Muhammad Husnain Khan      24L-3007&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas'; font-size:11pt;&quot;&gt;Muhammad Muazzam Mehmood   24L-3063&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>60</y>
+      <width>171</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>coin.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>430</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.458158, y1:0.451, x2:0.448522, y2:0.78, stop:0.00549451 rgba(60, 101, 169, 100), stop:1 rgba(60, 70, 169, 100));</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Real Time Trading feature&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>430</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.458158, y1:0.451, x2:0.448522, y2:0.78, stop:0.00549451 rgba(60, 101, 169, 100), stop:1 rgba(60, 70, 169, 100));</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Secure and convenient wallets&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>430</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.458158, y1:0.451, x2:0.448522, y2:0.78, stop:0.00549451 rgba(60, 101, 169, 100), stop:1 rgba(60, 70, 169, 100));</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Encrypted credential Protection&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

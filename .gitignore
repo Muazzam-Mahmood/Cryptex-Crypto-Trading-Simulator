@@ -1,0 +1,38 @@
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.aps
+*.ncb
+*.sdf
+*.cache
+*.opensdf
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.exe
+*.lib
+*.dll
+*.pdb
+*.idb
+*.exp
+*.ipch
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Temporary / backup files
+*.log
+*.tmp
+*.bak
+
+# Ignore auto-generated moc include guards (can be huge)
+.moc/
