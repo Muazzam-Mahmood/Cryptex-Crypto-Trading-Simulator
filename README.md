@@ -52,9 +52,7 @@ Cryptex/
 ---
 
 ## 📜 License
-
-This project is for **educational and personal learning purposes only**.  
-Feel free to explore and learn from it — commercial use is not permitted.
+This project is licensed under the MIT License.
 
 ---
 
